@@ -1,0 +1,103 @@
+/**** General Styles ****/
+.center-block{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+html, body, a, p, ul, span, li, div{
+	font-family:'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:'Raleway', sans-serif;
+}
+/**** Navigation ****/
+.navbar{
+	border-radius:0px !important;
+	font-family:'Raleway', sans-serif;
+}
+
+#navbar ul li{
+	width:100px;
+	margin-right:10px;
+	text-align: center;
+}
+/**** Homepage ****/
+
+
+.jumbotron{
+	margin-bottom:0px !important;
+	background:#414141;
+	background-image:url('../download.jpg');
+	background-size:cover;
+	color:#e1e1e1 !important;
+}
+
+img[alt="Desktop Graphic"]{
+	float:right;
+}
+.about_img{
+	text-align:center;
+}
+
+.about_text{
+	padding:0 50px;
+}
+
+.about, .what, .work, .blog{
+	margin-bottom:50px !important;
+	margin-top:50px !important;
+}
+
+.what{
+	text-align:center;
+
+
+}
+.what .row{
+	margin-bottom:50px;
+}
+
+.blog{
+	margin-top:20px;
+}
+
+.thumbnail{
+	margin-top:20px;
+}
+
+
+.icon_space{
+	margin-top:18px;
+}
+
+/**** About ****/
+
+.resume{
+	text-align: center;
+}
+
+/**** Portfolio ****/
+.tag{
+	color:#999;
+	font-weight:bold;
+}
+
+/**** Contact Page ****/
+
+form{
+	width:450px;
+	margin:0px auto;
+	margin-bottom: 50px;
+}
+
+input{
+	font-size:16px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	margin:10px;
+}
+
+label{
+	font-size:16px;
+}
